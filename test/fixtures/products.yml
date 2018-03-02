@@ -1,7 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 # Always pick good fixture names so that testing is easy
 
-
 ruby:
   title: Programming Ruby 1.9
   description:
