@@ -1,0 +1,11 @@
+
+ $('#cart').html("<%=j render(@cart) %>");
+
+$('#current_item').css({'background-color':'#88ff88'}).
+  animate({'background-color':'#114411'},1000);
+
+// can written in vanilla js
+// Rails 5.1 doesn't use jquery by default anymore; I added it
+//cart = document.getElementById("cart");
+//cart.innerHTML =  "<%=j render(@cart) %>";
+

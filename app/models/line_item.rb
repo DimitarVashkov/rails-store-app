@@ -6,4 +6,8 @@ class LineItem < ApplicationRecord
   # for another table, the model should have a belongs_to for each
   belongs_to :product
   belongs_to :cart
+
+  def total_price
+    product.price * quantity
+  end
 end
